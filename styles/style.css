@@ -140,6 +140,33 @@ body{
     height: 427px;    
  }
  /*------------------------------------ end ------------------------------ */
+/*-----------------------------
+           video stat    
+    --------------------------------- */
+ .section-video{
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     
+ }
+.section-v-title{
+    font-size: 48px;
+    width: 500px;
+    color: #0A0826;
+}
+ .video-final{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+ .section-v-ditals{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 30px;
+ }
+ 
+ /*---------------------------------- end ---------------------------------- */
  /*--------------------------------
          footer style  
     ----------------------------------*/
@@ -204,26 +231,23 @@ body{
     width: 400px;
     height: 350px;
 }
+.section-v-ditals{
+    grid-template-columns: repeat(1,1fr);
     
 }
 /*---------------------- Tablet devies  --------------------------------------------*/
 @media only screen and (min-width:688px) and (max-width:992px) {
-    body{
+body{
         width:100%;
     }
-    .container{
+.container{
         width: 100%;
     }
- 
-.section-container,.copa-cup{
-    grid-template-columns: repeat(2,1fr);
 }
 .football-players{
      grid-template-columns: repeat(2,1fr);
 
  }
-
-
 .copa-player img{
     padding-top: 2%;
     width: 400px;
