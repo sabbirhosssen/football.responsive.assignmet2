@@ -193,6 +193,7 @@ body{
 .social-link{
     font-size: 35px;
 }
+
 /*------------------------------------------------------------- footer end  ---------------------------------*/
 
 /*-----------------------------
@@ -202,24 +203,24 @@ body{
 
 /*------------------------ Mobile devices -------------------------------- */
 @media only screen and (max-width:689px) {
-    body{
+body{
         width:100%;
-    }
-    .container{
+}
+.container{
         width: 100%;
-    }
-    .section-ditals h1{
+}
+.section-ditals h1{
         font-size: 1.25em;
-    }
- .section-container ,.copa-cup, .football-players{
+}
+.section-container ,.copa-cup, .football-players{
      grid-template-columns: repeat(1,1fr);
- }
+}
 
- .article-section{
+.article-section{
      flex-direction: unset;
      width: 100%;
 
- }
+}
 .copa-player img{
     padding-top: 2%;
     width: 400px;
@@ -235,19 +236,20 @@ body{
     grid-template-columns: repeat(1,1fr);
     
 }
+}
 /*---------------------- Tablet devies  --------------------------------------------*/
 @media only screen and (min-width:688px) and (max-width:992px) {
 body{
         width:100%;
-    }
+}
 .container{
         width: 100%;
-    }
 }
+
 .football-players{
      grid-template-columns: repeat(2,1fr);
 
- }
+}
 .copa-player img{
     padding-top: 2%;
     width: 400px;
