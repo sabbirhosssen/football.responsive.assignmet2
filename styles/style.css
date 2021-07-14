@@ -174,7 +174,7 @@ body{
 
 
 /*------------------------ Mobile devices -------------------------------- */
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:689px) {
     body{
         width:100%;
     }
@@ -215,13 +215,15 @@ body{
         width: 100%;
     }
  
- }
-    .football-players,.section-container,.copa-cup{
+.section-container,.copa-cup{
+    grid-template-columns: repeat(2,1fr);
+}
+.football-players{
      grid-template-columns: repeat(2,1fr);
 
  }
 
-}
+
 .copa-player img{
     padding-top: 2%;
     width: 400px;
@@ -235,4 +237,3 @@ body{
 }
 
 }
-
