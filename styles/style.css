@@ -7,11 +7,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .container{
     display: flex;
@@ -57,17 +53,17 @@ main{
     height: 430px;
 
 }
-/* header style end  */
-
-
-
-
+/*------------------------- header style end  ------------------------------*/
 /*-------------------------------------
  football players ditals stat 
  ---------------------------------------*/
+ .article-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
  .football-players{
      width: 1050px;
-     height: 474px;
      display:grid;
      grid-template-columns: repeat(3, 1fr);
      grid-column-gap: 32px;
@@ -99,23 +95,74 @@ main{
     font-size: 16px;
 
  }
- /* football players ditals end  */
+ /*------------------------------------ football players ditals end  ----------------------------------*/
 
-
-
-
- /*-------- Article section
+ /*----------------------------------------------------- 
+           Article section
         Copa America Highlights 
-                stat  */
+                stat  
+    -----------------------------------------------*/
+.section-copa{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 22%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 
+}
  .copa-ditals h1{
-     font-size: 20px;
+     font-size: 48px;
+     width: 500px;
+     color: #0A0826;
 
  }
+ .copa-ditals p{
+     font-size: 16px;
+     width: 400px;
+ }
+ .copa-ditals a{
+    background-color: #E02C6D;
+    margin: 0px 8px;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+ }
+ .copa-ditals  a.arrow{
+    color: white;
+    font-size: 100px;
+
+}
  .copa-player img{
     width: 567px;
     height: 427px;    
  }
- 
- /*---- football players ditals end ---- */
+ /*------------------------------------ end ------------------------------ */
+ /*--------------------------------
+         footer style  
+    ----------------------------------*/
+ footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+} 
 
+.footer-container{
+    width: 490px;
+    height: 230px; 
+
+    
+}
+.footer-logo img{
+    width: 490px;
+    height: 120px;
+
+}
+.social-link{
+    font-size: 35px;
+}
+/*------------------------------------------------------------- footer end  ---------------------------------*/
