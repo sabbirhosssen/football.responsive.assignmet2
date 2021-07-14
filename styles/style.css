@@ -1,0 +1,121 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Google Font end  */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    background-color: #2D25A0;
+    margin-bottom: 50px;
+
+}
+/*---------------------------------------
+    header stat style  
+    -------------------------------------*/
+.section-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    
+    }
+.section-ditals h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 64px;
+    width: 500px;
+}
+.section-ditals a{
+    background-color: #E02C6D;
+    margin: 0px 8px;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.section-ditals a.arrow{
+    color: white;
+    font-size: 100px;
+
+}
+.top-banner img{
+    width: 550px;
+    height: 430px;
+
+}
+/* header style end  */
+
+
+
+
+/*-------------------------------------
+ football players ditals stat 
+ ---------------------------------------*/
+ .football-players{
+     width: 1050px;
+     height: 474px;
+     display:grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 32px;
+     grid-row-gap: 30px;
+ }
+ .players{
+     width: 300px;
+     height: 474px;
+     padding: 15px;
+     background-color: #FFFFFF;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+     
+ }
+ .player{
+     width: 300px;
+     height: 426;
+ }
+ .player img{
+     width: 300px;
+     height:256px ;
+ }
+ .section-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+ }
+ .section-info{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+ }
+ /* football players ditals end  */
+
+
+
+
+ /*-------- Article section
+        Copa America Highlights 
+                stat  */
+
+ .copa-ditals h1{
+     font-size: 20px;
+
+ }
+ .copa-player img{
+    width: 567px;
+    height: 427px;    
+ }
+ 
+ /*---- football players ditals end ---- */
+
