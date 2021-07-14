@@ -62,7 +62,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
- .football-players{
+.football-players{
      width: 1050px;
      display:grid;
      grid-template-columns: repeat(3, 1fr);
@@ -71,7 +71,6 @@ body{
  }
  .players{
      width: 300px;
-     height: 474px;
      padding: 15px;
      background-color: #FFFFFF;
      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -80,7 +79,6 @@ body{
  }
  .player{
      width: 300px;
-     height: 426;
  }
  .player img{
      width: 300px;
@@ -104,11 +102,14 @@ body{
     -----------------------------------------------*/
 .section-copa{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding-left: 22%;
     padding-top: 7%;
-    padding-bottom: 7%;
+
+}
+.copa-cup{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 
 }
  .copa-ditals h1{
@@ -135,7 +136,7 @@ body{
 
 }
  .copa-player img{
-    width: 567px;
+   width: 567px;
     height: 427px;    
  }
  /*------------------------------------ end ------------------------------ */
@@ -166,3 +167,72 @@ body{
     font-size: 35px;
 }
 /*------------------------------------------------------------- footer end  ---------------------------------*/
+
+/*-----------------------------
+      Midea Queries 
+------------------------------ */
+
+
+/*------------------------ Mobile devices -------------------------------- */
+@media only screen and (max-width:688px) {
+    body{
+        width:100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .section-ditals h1{
+        font-size: 1.25em;
+    }
+ .section-container ,.copa-cup, .football-players{
+     grid-template-columns: repeat(1,1fr);
+ }
+
+ .article-section{
+     flex-direction: unset;
+     width: 100%;
+
+ }
+.copa-player img{
+    padding-top: 2%;
+    width: 400px;
+    height: 350px;
+
+}
+.top-banner img{
+    padding-top: 2%;
+    width: 400px;
+    height: 350px;
+}
+    
+}
+/*---------------------- Tablet devies  --------------------------------------------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    body{
+        width:100%;
+    }
+    .container{
+        width: 100%;
+    }
+ 
+ }
+    .football-players,.section-container,.copa-cup{
+     grid-template-columns: repeat(2,1fr);
+
+ }
+
+}
+.copa-player img{
+    padding-top: 2%;
+    width: 400px;
+    height: 350px;
+
+}
+.top-banner img{
+    padding-top: 2%;
+    width: 400px;
+    height: 350px;
+}
+
+}
+
