@@ -2,7 +2,7 @@
 
 ##* My projects only HTML 5 and CSS 3 *##
 
-=> Not responsive this project 
+=> Media query use responsive this project 
 
 The project was HTML 5 or CSS 3 [responsive.football.assignmet2](https://responsive-football-assingment2.netlify.app/)
 
